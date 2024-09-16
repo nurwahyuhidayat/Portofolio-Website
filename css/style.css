@@ -1,0 +1,285 @@
+:root {
+    --mainColor: #252734;
+    --secondaryColor: #333646;
+    --accentColor: #FF9100;
+}
+
+body {
+    background-color: var(--mainColor);
+    min-height: 900px;
+    font-family: 'ubuntu', sans-serif;
+
+}
+
+section {
+    scroll-margin-top: 70px; /* Sesuaikan 80px dengan tinggi navbar kamu */
+  }
+
+/* NavBar */
+.nav-link.active {
+    color: var(--accentColor) !important;
+    font-weight: 700;
+}
+
+.nav-scroll {
+    background-color: var(--secondaryColor) !important;
+    z-index: 10;
+    transition: .6s;
+}
+
+/* End NavBar */
+
+/* Home Section */
+.color-accent{
+    color: var(--accentColor);
+}
+
+#home {
+    color: #FFF;
+    min-height: 100vh;
+    padding-top: 80px;
+}
+
+#home h1{
+    font-size: 3rem;
+}
+
+#home h2{
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-top:20px;
+}
+
+#home p{
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+/* Button CTA */
+.btn-custom1 {
+    background-color: var(--accentColor);
+    margin-right:10px;
+    text-align : center;
+    color : #FFF;
+    min-width : 150px;
+    height : 45px;
+    font-weight : 700;
+    font-size : 1rem;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-custom11 {
+    background-color: #f0f0f0;
+    text-align : center;
+    color : var (--mainColor);
+    min-width : 150px;
+    height : 45px;
+    font-weight : 700;
+    font-size : 1rem;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-custom2 {
+    background-color: var(--mainColor);
+    text-align : center;
+    color : #FFF;
+    min-width : 150px;
+    height : 40px;
+    font-weight : 700;
+    font-size : .9rem;
+    border-radius: 25px;
+}
+
+.btn-custom1:hover {
+    box-shadow: 0 0 5px rgba(255, 166, 0, .8);
+    transform: scale(1.05);
+}
+
+.btn-custom11:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+    transform: scale(1.05);
+}
+
+.btn-custom2:hover {
+    color: var(--mainColor);
+    background-color: #f0f0f0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+
+}
+
+.social-icon-home {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    margin-bottom: 10px;
+}
+
+.social-logo {
+    margin: 7px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    border:50%;
+
+}
+
+.social-logo:hover{
+    transform: scale(1.4);
+}
+
+.cv {
+    color: #FFF;
+    cursor : pointer;
+    font-size: 1.1rem; 
+}
+
+.img {
+    border-radius: 7%;
+    border: 7px solid var(--accentColor);
+
+}
+
+/* End Home Section */
+
+/* About Section */
+#about {
+    color:#FFF;
+    min-height: 300px;
+    width: 100%;
+    background-color: var(--secondaryColor);
+    padding-top : 50px;
+    padding-bottom: 50px;
+    margin-bottom: 80px;
+}
+hr {
+    width: 35%;
+    height: 5px;
+    color: var(--accentColor);
+    margin: 0 auto;
+    opacity: 100%;
+}
+
+/* End About Section */
+
+/* Skill Section */
+#skill {
+    color: #FFF;
+    width: 100%;
+    min-height: 280px;
+    padding-bottom: 50px;
+}
+
+#skill img {
+    width: 10%;
+    margin: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+#skill img:hover{
+    transform: scale(1.3);
+}
+
+.skill-text {
+    margin-top: 30px;
+    color: var(--accentColor);
+}
+
+
+
+/* End Skill Section */
+
+/* Certification Section */
+#certificate {
+    color: #FFF;
+    /* min-height: 600px; */
+    width:100%;
+    padding-top:50px;
+    padding-bottom:50px;  
+    background-color: var(--secondaryColor);
+}
+
+#certificate .card {
+    background-color: #414558;
+    height: 880px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#certificate .card:hover {
+    background-color: var(--accentColor);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    transform: scale(1.05);
+}
+
+
+/* #certificate .card {
+    background-color: #414558;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#certificate .card:hover {
+    background-color: var(--accentColor);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+} */
+
+#certificate h2 {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+#certificate p {
+    font-size: .9rem;
+    text-align: justify;
+}
+
+/* End Certification Section */
+
+
+
+/* Projects Section */
+#projects {
+    color: #FFF;
+    /* min-height: 600px; */
+    width:100%;
+    padding-top:50px;   
+    background-color: var(--mainColor);
+}
+
+#projects .card {
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    overflow : hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    background-color : #000;
+
+}
+
+#projects .card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Gambar akan menyesuaikan ukuran card tanpa distorsi */
+}
+
+#projects .card:hover {
+    background-color: #FFF;
+    box-shadow: 6px 6px 6px var(--accentColor);
+    transform: scale(1.05);
+
+}
+
+
+/* End Projects Section */
+
+
+
+
+/* Footer */
+.social-icon-footer {
+    margin-bottom: 10px;
+    border-radius: 50%;
+    border: 10px;
+}

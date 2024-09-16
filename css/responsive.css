@@ -1,0 +1,177 @@
+@media screen and (max-width : 1200px) {
+    #home p {
+        font-size: 1rem;
+    }
+
+    #home h1 {
+        font-size: 2.3rem;
+    }
+
+    #home h2{
+        font-weight: 300;
+        font-size: 1.1rem;
+    }
+
+    #home .row {
+        padding-bottom: 70px;
+    }
+
+    #skill img {
+        width: 12%;
+    }
+
+    #certificate .card {
+        height: 540px;
+    }
+
+    #certificate h5 {
+        font-size: 1rem;
+    }
+
+    #certificate h2 {
+        font-size: 0.9rem;
+    }
+
+    #certificate p {
+        font-size: .8rem;
+        text-align: justify !important;
+    }
+
+    #about .p-contact {
+        text-align: center !important;
+        font-size: .9rem;
+    }
+
+}
+
+@media screen and (max-width : 768px) {
+    #home img {
+        width:60%;
+    }
+
+    .social-icon {
+        left: 35%;
+        transform: translate (-35%);
+    }
+
+    #home .row {
+        padding-bottom: 70px;
+    }
+
+    #about p {
+        text-align: justify !important;
+    }
+
+    #skill img {
+        width: 18%;
+    }
+
+    #certificate .card {
+        height: auto !important;
+    }
+
+    #certificate h2 {
+        font-size: 1.1rem;
+    }
+
+    #certificate p {
+        font-size: .8rem;
+        text-align: justify !important;
+    }
+
+    .btn-custom2 {
+        min-width : 120px;
+        height : 40px;
+        font-weight : 700;
+        font-size : .9rem;
+        border-radius: 25px;
+    }
+
+}
+
+@media screen and (max-width : 576px) {
+    hr {
+        width: 75%;
+    }
+
+    #home img {
+        width:50%;
+    }
+
+    .social-icon {
+        left: 27%;
+        transform: translate (-35%);
+    }
+
+    #home .row {
+        padding-bottom: 70px;
+    }
+
+    #about p {
+        text-align: justify !important;
+        font-size: .9rem;
+    }
+
+    #about .p-contact {
+        text-align: center !important;
+        font-size: .9rem;
+    }
+
+    #certificate h2 {
+        font-size: 1rem;
+    }
+
+    #certificate p {
+        font-size: .9rem;
+    }
+
+    .btn-custom2 {
+        min-width : 120px;
+        height : 40px;
+        font-weight : 700;
+        font-size : .9rem;
+        border-radius: 25px;
+    }
+
+    #certificate .card {
+        height: auto !important;
+    }
+
+    #footer p {
+        font-size: 0.8rem !important;
+    }
+
+}
+
+@media screen and (max-width : 350px) {
+    #home p {
+        font-size: .8rem;
+    }
+
+    .btn-custom1 {
+        margin-left:10px;
+    }
+
+    #home h1 {
+        font-size: 2rem;
+    }
+
+    #home h2{
+        font-weight: 300;
+        font-size: .9rem;
+    }
+
+    .social-icon {
+        left: 25%;
+        transform: translate (-25%);
+    }
+
+    #certificate .card {
+        height: auto !important;
+    }
+
+    #footer p {
+        font-size: 0.8rem !important;    
+    }
+    
+}
